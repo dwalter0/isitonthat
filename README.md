@@ -15,8 +15,11 @@ All four of the scripts are run like<br/>
 `python3 isiton_x_.py <file from public listing for provider> <file with ips to check 1 per line>`<br/>
 
 <br/>
-
+Digital Ocean<br/>
 `python3 isitondo.py google.csv ips.txt`<br/>
+Azure<br/>
 `python3 isitonazure.py ServiceTags_Public_20230814.json ips.txt`<br/>
+AWS<br/>
 `python3 isitonaws.py ipranges.json ips.txt`<br/>
+GCP<br/>
 `python3 isitongcp.py cloud.json ips.txt`<br/>
